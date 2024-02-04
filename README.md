@@ -8,17 +8,17 @@ The comparison includes the following models with specified parameters:
 
 The following table summarizes the configuration parameters used for each machine learning model in this comparison:
 
-| Model                         | Parameters                                                                                                                           |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **XGBoost**             | colsample_bytree: 0.9`<br>`gamma: 0.1`<br>`learning_rate: 0.2`<br>`max_depth: 7`<br>`n_estimators: 300`<br>`subsample: 0.9 |
-| **Gradient Boosting**   | learning_rate: 0.2`<br>`max_depth: 5`<br>`n_estimators: 300                                                                      |
-| **AdaBoost**            | learning_rate: 1`<br>`n_estimators: 200                                                                                            |
-| **Logistic Regression** | C: 0.1`<br>`penalty: l2`<br>`solver: liblinear                                                                                   |
-| **Decision Tree**       | criterion: entropy`<br>`max_depth: None`<br>`min_samples_leaf: 2`<br>`min_samples_split: 5                                     |
-| **KNN**                 | metric: manhattan`<br>`n_neighbors: 3`<br>`weights: distance                                                                     |
-| **Perceptron**          | alpha: 0.0001`<br>`max_iter: 1000`<br>`penalty: l2                                                                               |
-| **Random Forest**       | criterion: entropy`<br>`max_depth: None`<br>`min_samples_split: 2`<br>`n_estimators: 500                                       |
-| **Naïve Bayes**        | var_smoothing: 10.0                                                                                                                  |
+| Model                         | Parameters                                                                                                                  |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **XGBoost**             | colsample_bytree:`0.9` gamma: `0.1` learning_rate: `0.2` max_depth: `7` n_estimators: `300` subsample: `0.9` |
+| **Gradient Boosting**   | learning_rate:`0.2` max_depth: `5` n_estimators: `300`                                                              |
+| **AdaBoost**            | learning_rate:`1` n_estimators: `200`                                                                                  |
+| **Logistic Regression** | C:` 0.1` penalty: `l2` solver: `liblinear`                                                                          |
+| **Decision Tree**       | criterion: `entropy` max_depth: `None` min_samples_leaf: `2` min_samples_split: `5`                             |
+| **KNN**                 | metric:`manhattan` n_neighbors: `3` weights: `distance`                                                              |
+| **Perceptron**          | alpha:`0.0001` max_iter: `1000` penalty: `l2`                                                                       |
+| **Random Forest**       | criterion:`entropy` max_depth: `None` min_samples_split: `2` n_estimators: `500`                                 |
+| **Naïve Bayes**        | var_smoothing:`10.0`                                                                                                      |
 
 Each model was carefully tuned with the above parameters to optimize performance for the task of diabetes prediction.
 
